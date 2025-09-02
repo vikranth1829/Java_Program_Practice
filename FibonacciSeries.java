@@ -51,21 +51,56 @@ public class FibonacciSeries {
 			 
 			//3. Use WHile Loop
 		
-		int n=10;
+//		int n=10;
+//		int n1=0,n2=1;
+//		System.out.print(n1+" "+n2);
+//		int i=3;
+//		while (i<=n)
+//		{
+//			
+//			int n3=n1+n2;
+//			System.out.print(" "+n3);
+//			n1=n2;
+//			n2=n3;
+//			i++;
+//		}
+	
+		
+			// 4. Find the n'th Fibonacci number using While loop
+		
+//		Scanner sc=new Scanner(System.in);
+//		int n=sc.nextInt();
+//		int n1=0,n2=1;
+//		int i=3;
+//		while (i<=n)
+//		{
+//		 int n3=n1+n2;
+//		 n1=n2;
+//		 n2=n3;
+//		 i++;
+//		}
+//		System.out.println(n2);
+//		
+//		sc.close();
+//		
+		
+			// 5. Find the n'th Fibonacci number by using For loop
+		
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
 		int n1=0,n2=1;
-		System.out.print(n1+" "+n2);
-		int i=2;
-		while (i<n)
+		
+		for(int i=2 ; i<=n ; i++)
 		{
-			
 			int n3=n1+n2;
-			System.out.print(" "+n3);
 			n1=n2;
 			n2=n3;
-			i++;
 		}
-	
-			
+		System.out.println(n2);
+		sc.close();
+		
+		
 	}
 
 }

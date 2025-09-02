@@ -12,7 +12,7 @@ public class MaxThreeNo {
 		int b=sc.nextInt();
 		int c=sc.nextInt();
 		
-							//Method 1
+							//  Method 1
 		
 //		int max=a;
 //		if(b>max)
