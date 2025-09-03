@@ -35,21 +35,21 @@ public class PrimeNo_While_For_CodeOptimization_MathSqrt {
 											//While Loop COde Optimization using Math.sqrt(n) method
 
 		
-		int c=2;
-		while (c<=Math.sqrt(n))   //while(c*c<=n)
-		{
-			if(n%c==0)
-			{
-				count++;
-				break;
-			}
-			c++;
-		}
-		if(count==0)
-			System.out.println("Prime Number");
-		else
-			System.out.println("Not Prime Number");
-		sc.close();
+//		int i=2;
+//		while (i<=Math.sqrt(n))   //while(i*i<=n)
+//		{
+//			if(n%i==0)
+//			{
+//				count++;
+//				break;
+//			}
+//			i++;
+//		}
+//		if(count==0)
+//			System.out.println("Prime Number");
+//		else
+//			System.out.println("Not Prime Number");
+//		sc.close();
 		
 		
 		

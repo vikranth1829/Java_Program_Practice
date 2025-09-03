@@ -34,7 +34,7 @@ public class FibonacciSeries {
 //			System.out.println();
 //		}
 		
-			//2. simple Swap method when n is know like Print 10 Fibnocci Series
+			//2. simple Swap method when n is know like Print 10 Fibonocci Series
 		
 //		int n=10;
 //		int n1=0;
@@ -47,7 +47,7 @@ public class FibonacciSeries {
 //			n1=n2;
 //			n2=n3;
 //		}
-//		
+		
 			 
 			//3. Use WHile Loop
 		
@@ -78,28 +78,29 @@ public class FibonacciSeries {
 //		 n1=n2;
 //		 n2=n3;
 //		 i++;
-//		}
+//		} 
 //		System.out.println(n2);
 //		
 //		sc.close();
-//		
+		
 		
 			// 5. Find the n'th Fibonacci number by using For loop
 		
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		
-		int n1=0,n2=1;
-		
-		for(int i=2 ; i<=n ; i++)
-		{
-			int n3=n1+n2;
-			n1=n2;
-			n2=n3;
-		}
-		System.out.println(n2);
-		sc.close();
-		
+//		Scanner sc=new Scanner(System.in);
+//		int n=sc.nextInt();
+//		
+//		int n1=0,n2=1;
+//		
+//		//System.out.print(n1+" "+n2);
+//		for(int i=3 ; i<=n ; i++)
+//		{
+//			int n3=n1+n2;
+//			n1=n2;
+//			n2=n3;
+//		}
+//		System.out.print(n2);
+//		sc.close(); 
+	
 		
 	}
 

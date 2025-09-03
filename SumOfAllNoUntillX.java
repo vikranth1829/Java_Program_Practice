@@ -28,7 +28,7 @@ public class SumOfAllNoUntillX {
 			sc.close();
 	}	
 	
-		}
+}
 		
 	
 
