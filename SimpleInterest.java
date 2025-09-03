@@ -28,7 +28,7 @@ public class SimpleInterest {
 		float r=sc.nextFloat();
 		
 		
-		float si=(p*t*(r/12))/100;                               //t/12 will convert the years to months
+		float si=(p*r*(t/12))/100;                               //t/12 will convert the years to months
 		System.out.println("Your Simple Interest is : "+si);
 		sc.close();
 	

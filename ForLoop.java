@@ -36,12 +36,6 @@ public class ForLoop {
 //		System.out.println("Sum of "+ n+ "is "+ sum);
 //		sc.close();
 		
-											// 4. Print Multiplication Tables 
-//		int j=5;
-//		for(int i=1 ; i<=10 ; i++)
-//		{
-//			System.out.println(i+"*"+j+"="+(i*j));
-//		}
-		
+
 	}
 }
