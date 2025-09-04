@@ -9,23 +9,23 @@ public class PrimeNoWhile {
 		Scanner sc =new Scanner(System.in);
 		
 		int n=sc.nextInt();
-		int c=2;
+		int i=2;
 		int count =0;
 		
-		if(n<2) //check its lesser than 1 and print not prime nor Composite
+		if(n<=1) //check its lesser than 1 and print not prime nor Composite
 		{
 			System.out.println("Neither Prime nor Cpmposite");
 			sc.close();
 			return;
 		}
-	  while (c<n) 
+	  while (i<n) 
 		{
-			if(n%c==0)
+			if(n%i==0)
 			{
 				count++;
 				break;
 			}
-			c++;		
+			i++;		
 		}
 		
 		if (count==0)
