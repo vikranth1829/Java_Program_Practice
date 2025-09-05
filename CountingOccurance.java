@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class CountingOccurance {
 
-	public static void main(String[] args) {
-
-		
-		
+	public static void main(String[] args) {		
 		
 								// 1. Method of converting int to String 
 //		Scanner sc=new Scanner(System.in);
