@@ -1,6 +1,6 @@
 package CodePractice;
 import java.util.Scanner;
-public class GetUserInputNo_until0_PrintLargestNo {
+public class GetUserInputNo_until0_PrintSum {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
