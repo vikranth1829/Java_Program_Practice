@@ -10,7 +10,7 @@ public class AreaOfCircle
 		double radius=sc.nextDouble();
 		
 		double area=Math.PI*radius*radius;
-		System.out.printf("Area of Circle is :"+"%.2f",area);
+		System.out.printf("Area of Circle is : %.2f",area);
 		sc.close();
 	}
 }
