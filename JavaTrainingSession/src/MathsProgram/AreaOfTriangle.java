@@ -11,7 +11,7 @@ public class AreaOfTriangle {
 		double height=sc.nextDouble();
 		
 		double area=height*base*0.5;
-		System.out.printf("Area of Triangle : "+"%.2f%n",area);
+		System.out.printf("Area of Triangle : %.2f%n",area);
 		sc.close();
 
 	}
