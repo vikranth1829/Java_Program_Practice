@@ -17,6 +17,7 @@ public class PrimeNoForLoop {
 	    	if(n<=1)
 	    	{
 	    		System.out.println("Neither Prime Nor Composit");
+	    		sc.close();
 	    		return;
 	    	}	
 	        int count =0;

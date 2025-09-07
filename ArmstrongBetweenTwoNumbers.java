@@ -14,7 +14,9 @@ public class ArmstrongBetweenTwoNumbers {
 
         for (int num = first; num <= last; num++) {
             int original = num;
-            int digits = 0, sum = 0, temp = num;
+            int temp = num;
+            int digits = 0;
+            int sum = 0; 
 
             // Count digits
             while (temp != 0) {
