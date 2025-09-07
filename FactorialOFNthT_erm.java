@@ -1,6 +1,6 @@
 package CodePractice;
 
-public class Factorial {
+public class FactorialOFNthT_erm {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Factorial {
 		{
 			fact=fact*i;
 		}
-		System.out.println("Factorial of "+fact+"is : "+fact);
+		System.out.println("Factorial of "+n+"is : "+fact);
 	}
 
 }
