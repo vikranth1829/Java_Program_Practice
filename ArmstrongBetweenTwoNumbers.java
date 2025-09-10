@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class ArmstrongBetweenTwoNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the first number: ");
         int first = sc.nextInt();
         System.out.print("Enter the last number: ");
@@ -37,8 +36,7 @@ public class ArmstrongBetweenTwoNumbers {
                 System.out.println(original);
             }
         }
-
-        sc.close();
+        sc.close(); 	
     }
    }
   
