@@ -22,7 +22,7 @@ public class PrimeNoForLoop {
 	    	}	
 	        int count =0;
 	        
-	        for (int i=2; i<=n; i++)    	     //  for (int i=1; i*i<=n;i++) optimized 
+	        for (int i=2; i<n; i++)    	     //  for (int i=1; i*i<=n;i++) optimized 
 	        {
 	        	if(n%i==0)
 	        	{

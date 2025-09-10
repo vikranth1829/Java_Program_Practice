@@ -14,7 +14,7 @@ public class PrimeNoWhile {
 		
 		if(n<=1) //check its lesser than 1 and print not prime nor Composite
 		{
-			System.out.println("Neither Prime nor Cpmposite");
+			System.out.println("Neither Prime nor Composite");
 			sc.close();
 			return;
 		}
