@@ -1,4 +1,4 @@
-package MathsProgram;
+package CodePractice;
 import java.util.Scanner;
 public class FactorsOfNumbers {
 
