@@ -20,7 +20,6 @@ public class ConcatenationOfArray {
 		System.out.print("Enter "+arr.length+" Array values:");
 		for(int i=0;i<arr.length;i++)
 		{
-			
 			arr[i]=sc.nextInt();
 		}
 		return arr;
