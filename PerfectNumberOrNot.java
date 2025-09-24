@@ -19,8 +19,5 @@ public class PerfectNumberOrNot {
 			System.out.println("Perfect Number");
 		else
 			System.out.println("Not a Perfect Number");
-		
-
-	}
-
+}
 }

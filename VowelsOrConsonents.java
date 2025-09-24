@@ -6,16 +6,16 @@ public class VowelsOrConsonents {
 		
 		
 		
-//		Scanner sc=new Scanner(System.in);
-//		char c=sc.next().trim().toLowerCase().charAt(0);
-//		
-//		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
-//			System.out.println("Vowel");
-//		else if(c>='a'&&c<='z')
-//			System.out.println("Consonant");
-//		else
-//			System.out.println("Not Alphabet");
-//		sc.close();
+		Scanner sc=new Scanner(System.in);
+		char c=sc.next().trim().toLowerCase().charAt(0);
+		
+		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+			System.out.println("Vowel");
+		else if(c>='a'&&c<='z')
+			System.out.println("Consonant");
+		else
+			System.out.println("Not Alphabet");
+		sc.close();
 		
 		
 		

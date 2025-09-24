@@ -12,7 +12,7 @@ public class MaxThreeNo {
 		int b=sc.nextInt();
 		int c=sc.nextInt();
 		
-							//  Method 1
+							//  Using temp value
 		
 //		int max=a;
 //		if(b>max)
@@ -27,7 +27,7 @@ public class MaxThreeNo {
 //		
 //		sc.close();
 		
-								//Method 2
+								//Using operators
 //		if ((a>=b)&&(a>=c))
 //		{
 //			System.out.println(a);
@@ -38,7 +38,7 @@ public class MaxThreeNo {
 //			System.out.println(c);
 //		sc.close();
 		
-								//Method 3
+								//Using default method
 		
 		int large = Math.max(a,Math.max(b, c));
 		System.out.println(large);

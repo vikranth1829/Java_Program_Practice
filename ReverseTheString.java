@@ -19,7 +19,6 @@ public class ReverseTheString {
 		String rev=new String(arr);
 		System.out.println(rev);
 		sc.close();
-	
 		
 						//For loop straight Forward method	
 		
@@ -33,8 +32,7 @@ public class ReverseTheString {
 //		}
 //		System.out.println(rev);
 //		sc.close();
-		
-		
+			
 						//String Builder Method
 		
 //		Scanner sc=new Scanner(System.in);
@@ -45,5 +43,4 @@ public class ReverseTheString {
 //		System.out.println(sb.reverse());
 //		sc.close();
 	}
-
 }

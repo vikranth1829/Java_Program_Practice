@@ -11,7 +11,7 @@ public class CompoundInterest {
 		System.out.print("Enter Rate of Interest : ");
 		double r=sc.nextDouble();
 		
-		System.out.print("Enter the Time : ");
+		System.out.print("Enter the Duration of Loan : ");
 		double t=sc.nextDouble();
 		
 		System.out.print("Enter duration of Compound : ");

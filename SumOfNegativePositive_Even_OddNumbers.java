@@ -13,8 +13,6 @@ public class SumOfNegativePositive_Even_OddNumbers {
 		System.out.println("Enter any numbers (0 to Stop) :");
 		while(true)
 		{
-			
-			
 			if(!sc.hasNextInt())
 			{
 				System.out.println("Enter Valid Integers only");

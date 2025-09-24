@@ -9,8 +9,8 @@ public class SumOfaDigitOfNumbers {
 		int sum=0;
 		for(;n!=0;n=n/10)
 		{
-			int digit=n%10;
-			sum=sum+digit;
+			int rem=n%10;
+			sum=sum+rem;
 		}
 		System.out.println("Sum of all digits : "+sum);
 	}
