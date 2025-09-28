@@ -2,33 +2,34 @@ package AdvancedOopsProgram;
 import java.util.Scanner;
 public class SumOfNoUntill_Xx {
 	
-	public static int sum(String a)
+	public static int sum()
 	{
-		int n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter any number :");
+		
 		int sum=0;
 		while(true)
 		{
-			if(a.equalsIgnoreCase("x"))
+			String s=sc.next().trim();
+			
+			if(s.equalsIgnoreCase("x"))
 			{
-				return sum;
+				break;
 			}	
 			try{
-				n=Integer.parseInt(a);
+				int n=Integer.parseInt(s);
 				sum=sum+n;
-			}catch(NumberFormatException e)
+				}catch(NumberFormatException e)
 				{
 					System.out.println("Invalid character: Enter Number or x/X");
 				}
-			
 		}
+		sc.close();
+		return sum;
 	}
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter any number :");
-		String n=sc.next().trim();
-		int result=sum(n);
-		System.out.println("Sum = "+result);
-		sc.close();
+		
+		int result=sum();
+		System.out.println("Sum = "+result);	
 	}
-
 }
