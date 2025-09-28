@@ -32,6 +32,8 @@ public class PrimeBetweenTwoNumbers {
 			}
 			
 		}
+		if(b)
+			System.out.println(b=n+" ");
 		sc.close();
 		
 	}
