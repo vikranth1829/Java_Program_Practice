@@ -14,9 +14,9 @@ public class PrimeBetweenTwoNumbers {
 			 if(n>1) 
 			 {
 				boolean b=true;
-				for(int i=2;i<n;i++)		//take each number from previous for loop and combine from 2 to nth value
+				for(int i=2;i<n;i++)		//take each number from previous for loop and combine from 2 to nth before value
 				{
-					if(n%2==0)
+					if(n%i==0)
 					{
 						b=false;
 						break;
