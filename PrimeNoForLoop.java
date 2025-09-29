@@ -9,10 +9,9 @@ public class PrimeNoForLoop {
 										//	if number is divisible by 1 and by itself is prime number
 	    	
 	    	Scanner sc=new Scanner(System.in);
-	    	int n;
 	    
 	    	System.out.println("Enter any number");
-	    	n=sc.nextInt();
+	    	int n=sc.nextInt();
 	    	
 	    	if(n<=1)
 	    	{
