@@ -4,28 +4,28 @@ public class FactorsOfNumbers {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter any number:");
-		int num=sc.nextInt();
+		int n=0;
 		
-//		if(sc.hasNextInt())
-//		{
-//		 num=sc.nextInt();
-//		}else {
-//			System.out.println("Invalid Input : Enter integer:");
-//			sc.next();
-//		}
-		
-		if(num>0)
+		while(true) 
 		{
-			for(int i=1;i<=num;i++)
+			if(sc.hasNextInt())
 			{
-				if(num%i==0)
-				{
-					System.out.println(i+" ");
-				}
+				n=sc.nextInt();
+				if(n>0)
+					break;
+				else
+					System.out.print("Enter more than zero : Enter Integer :");
 			}
-		}else {
-		System.out.println("Enter number greater than Zero");	
+			else 
+			{
+				System.out.println("Invalid input : Enter Integer value: ");
+				sc.next();	
+			}
+		}
+		for (int i=1;i<=n;i++)
+		{
+			if(n%i==0)
+				System.out.println(i+" ");
+		}
 	}
-}
 }

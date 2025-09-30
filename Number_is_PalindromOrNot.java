@@ -17,7 +17,7 @@ public class Number_is_PalindromOrNot {
 //		else
 //			System.out.println("Not Palindrom");
 		
-					//For Loop straight method
+					//For Loop mathamatic straight method
 		
 //		Scanner sc=new Scanner(System.in);
 //		System.out.print("Enter any Number : ");
